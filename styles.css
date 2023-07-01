@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+:root{
+    --main-color:#2fa0cc;
+}
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: "Poppins", Sans-serif;
+  background-image: url(images/wales.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height:100vh;
+
+
+}
+.navbar{
+    position:fixed;
+    top:0;
+    width:100%;
+    background-color:#0c6dae;
+    opacity: 70%;
+    display:flex;
+    justify-content: space-between;
+    padding:12px;
+    align-items: center;
+}
+.nav-links a{
+    padding:10px;
+ display:none;
+    font-weight:700;
+    text-decoration: none;
+    font-size:1.2rem;
+}
+.logo {
+    font-size:2.3rem;
+    color: white;
+    font-weight:600;
+    text-decoration: none;
+}
