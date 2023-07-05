@@ -6,46 +6,153 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div id="wrapper">
-    <nav class="navbar">
-      <div class="logo">
-       
-        <img src="images/Portfolio.png" alt="">
-      </div>
-      <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Content</a></li>
-      </ul>
-    </nav>
-    
-  </div>
+    <header class="header">
+      <a href="" class="logo">Portfolio</a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#" class="active">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Portfolio</a>
+      </nav>
+    </header>
+
     <section class="home" id="home">
-      <h2 class="heading">Welcome </h2>
       <div class="home-content">
-        <h3>Hi, I'm </h3>
+        <h3>Hello, Its me</h3>
         <h1>Ryan Dixon</h1>
-        <h3>Web Programming <span>Student</span></h3>
+        <h3>Im a web <span>Programming</span> Student</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo iure
+          asperiores sunt! Ducimus magni provident excepturi reprehenderit,
+          sapiente voluptatibus exercitationem!
+        </p>
+        <div class="social-media">
+          <a href=""><i class="bx bxl-facebook"></i></a>
+          <a href=""><i class="bx bxl-facebook"></i></a>
+          <a href=""><i class="bx bxl-facebook"></i></a>
+          <a href=""><i class="bx bxl-facebook"></i></a>
+        </div>
+        <a href="" class="btn">Download CV</a>
+      </div>
+      <div class="home-img">
+        <img src="images/Rectangle 1.png" alt="" />
       </div>
     </section>
 
-    <div class="clouds">
-      <div class="cloud-1">
-        <img src="images/Rectangle 4.png" alt="">
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/world-warcraft-landscapes-theme-dg8.jpg" alt="" />
       </div>
-      <div class="cloud-2">
-        <img src="images/Rectangle 4.png" alt="">
+      <div class="about-content">
+        <h2 class="heading">About <span> me</span></h2>
+        <h3>Web Programming Student</h3>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est eaque
+          eum adipisci incidunt quo rerum fugit! Iure non architecto dolorum
+          similique fuga assumenda? Quasi blanditiis earum voluptatibus
+          veritatis mollitia expedita numquam sequi modi deserunt et eius,
+          temporibus perspiciatis. Nisi, voluptatibus eum! Amet dicta
+          voluptatibus necessitatibus distinctio.
+        </p>
+        <a href="" class="btn">Read More</a>
       </div>
-      <div class="cloud-4">
-        <img src="images/Rectangle 3.png" alt="">
-      </div>
-    </div>
+    </section>
 
-  </div>
+    <section class="services" id="services">
+      <h2 class="heading">our <span>Services</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Programmer</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
+            et. Expedita qui corrupti voluptate amet. Maxime veniam
+            necessitatibus iure earum?
+          </p>
+          <a href="" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Programmer</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
+            et. Expedita qui corrupti voluptate amet. Maxime veniam
+            necessitatibus iure earum?
+          </p>
+          <a href="" class="btn">Read More</a>
+        </div>
+
+
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Programmer</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
+            et. Expedita qui corrupti voluptate amet. Maxime veniam
+            necessitatibus iure earum?
+          </p>
+          <a href="" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="images/wow.jpg" alt="">
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, magnam.s</p>
+            <a href=""><i class="bx bx-link"></i></a>
+          </div>
+        </div>
+
+
+        <div class="portfolio-box">
+          <img src="images/fox.png" alt="">
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, magnam.s</p>
+            <a href=""><i class="bx bx-link"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/fox.png" alt="">
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, magnam.s</p>
+            <a href=""><i class="bx bx-link"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by Ryan Dixon</p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
   </body>
 </html>
