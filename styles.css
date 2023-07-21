@@ -69,6 +69,7 @@ header.sticky{
   display: flex;
   justify-content: center;
   align-items: center;
+  gap:2rem;
 }
 .home-content h3{
     font-size:3.2rem;
@@ -131,19 +132,21 @@ span{
    background-color: var(--second-bg-color);
 }
 .about-img img{
-    width:35vw;
+    width:25vw;
 }
 .heading{
     text-align: center;
     font-size:4.5rem;
 }
 .about-content{
-    text-align: left;
+    text-align: center;
     line-height: 1.2;
 
 }
 .about-content h3{
     font-size:2.3rem;
+    margin:2rem 0;
+    color:var(--main-color)
 }
 .about-content p{
     font-size:1.5rem;
@@ -184,6 +187,7 @@ span{
     color:#fff;
 }
 .services-box p{
+    height:25ch;
     font-size:1.6rem;
     margin:2rem 1.5rem 3rem;
 }
@@ -234,7 +238,7 @@ span{
     transform: translateY(0);
 }
 .portfolio-layer h4{
-    font-size:3rem;
+    font-size:2rem;
 }
 .portfolio-layer p{
     font-size:1.6rem;
@@ -339,10 +343,19 @@ span{
         flex-direction: column;
     }
     .home-img img{
-        width:50vw;
-        height:25vh;
+        width:70vw;
+        height:32vh;
+        margin-top:10px;
     }
     .about-img img{
         width:100%;
     }
+    .about-content{
+        text-align: center;
+    }
+    .about-content h3{
+        text-align: center;
+        margin:.8rem 0;
+    }
+  
 }
